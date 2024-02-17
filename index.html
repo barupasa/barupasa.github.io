@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Sai Krishna Portfolio</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- React -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q84ZVQPSLS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q84ZVQPSLS');
+</script>
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <div class="container px-5">
+                <!-- <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Home</span></a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="waph.html">WAPH</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="py-5">
+            <div class="container px-5 pb-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-xxl-5">
+                        <!-- Header text content-->
+                         <!-- Greeting cookie-->
+                         
+                        <div id="greeting"></div>
+                        <script src="js/greeting.js"></script>
+
+                        <!-- Welcome cookie-->
+                        <div id="welcomecookie" style="color:green;"></div>
+                    
+                        <div class="text-center text-xxl-start">
+                            <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
+                                <div class="text-uppercase">Design &middot; Development </div>
+                            </div>
+                            <div class="fs-3 fw-light text-muted">Actively Looking for Internship and Full Time
+                                Employement Starting Summer 2024</div>
+                            <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">Full Stack
+                                    Developer</span></h1>
+                            <div
+                                class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                                <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
+                                    href="resume.html">Resume</a>
+                                <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"
+                                    href="projects.html">Projects</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-7">
+                        <!-- Header profile picture-->
+                        <div class="d-flex justify-content-center mt-5 mt-xxl-0">
+                            <div class="profile bg-gradient-primary-to-secondary">
+                                <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
+                                <!-- Watch a tutorial on how to do this on YouTube (link)-->
+                                <img class="profile-img" src="assets/SK_ProfilePic.jpeg" alt="SAI KRISHNA PIC" />
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About Section-->
+        <section class="bg-light py-5">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-xxl-8">
+                        <div class="text-center my-5">
+                            <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
+                            <p class="lead fw-light mb-4">I'm Sai Krishna Barupati</p>
+                            <p class="text-muted">I'm actively looking for Internship/Full Time starting Summer 2024.
+                                I have 3 years of work experience as Software Developer at Verizon Data Services.</p>
+                            <div class="d-flex justify-content-center fs-2 gap-4">
+                                <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
+                                <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
+                                <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light py-5">
+            <div class="container px-5">
+                <br>
+                <div id="email" style="color:blue;" onclick="showOrHideEmail()">Display my Email</div>
+                <script type="text/javascript" src="js/email.js"></script>
+                <div id="digital-clock" style="color:blue;"></div>
+            
+                <canvas id="analog-clock" width="150" height="150" style="background-color:#999"></canvas>
+                <div id="joke" style="color:green;"></div>
+                
+                <!-- Weather widget script -->
+                <a class="weatherwidget-io" href="https://forecast7.com/en/40d42n82d91/ohio/?unit=us" data-label_1="OHIO"
+                    data-label_2="WEATHER" data-theme="original">OHIO WEATHER</a>
+                <script>
+                    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+                </script>
+            </div>
+
+                <!-- Analog clock script -->
+                 <script src="https://waph-uc.github.io/clock.js"></script>
+                    <script type=text/javascript>
+                    var  canvas=document.getElementById("analog-clock");
+                    var ctx=canvas.getContext("2d");
+                    var radius=canvas.height/2 ;
+                    ctx.translate(radius,radius);
+                    radius=radius * 0.90 ;
+                    setInterval(drawClock,1000); 
+                    function drawClock(){
+                    drawFace(ctx,radius);
+                    drawNumbers(ctx,radius); 
+                    drawTime(ctx,radius);
+                    }
+                </script>
+
+            <!-- Digital clock script -->
+                 <script type=text/javascript>
+                    function displayTime() { 
+                        document.getElementById('digital-clock').innerHTML=" The current Time is : "+ Date();
+                     }
+                        setInterval(displayTime,500);
+            </script>
+
+            <!-- Joke API script -->
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+                integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+            <script>
+                $.get("https://v2.jokeapi.dev/joke/Programming?type=single",
+                    function (result) {
+                        console.log("from joke API: " + JSON.stringify(result));
+                        $("#joke").html("Programming joke of the day: " + result.joke);
+                    });
+            </script>
+            
+            <!-- Cookie script -->
+            <script>
+                function setCookie(name, value, expiryDays) {
+                    const expirationDate = new Date();
+                    expirationDate.setDate(expirationDate.getDate() + expiryDays);
+                    document.cookie = `${name}=${value};expires=${expirationDate.toUTCString()};path=/`;
+                }
+
+                function getCookie(name) {
+                    const cookieValue = document.cookie.split('; ')
+                        .find(cookie => cookie.startsWith(name + '='))
+                        ?.split('=')[1];
+                    return cookieValue ? decodeURIComponent(cookieValue) : '';
+                }
+
+                function welcomeUser() {
+                    const lastVisit = getCookie('lastVisit');
+                    const greetingElement = document.getElementById("welcomecookie");
+
+                    if (lastVisit) {
+                        greetingElement.innerHTML = `Welcome back! Your last visit was on ${lastVisit}.`;
+                    } else {
+                        greetingElement.innerHTML = 'Welcome to Sai Krishna portfolio!';
+                    }
+
+                    setCookie('lastVisit', new Date().toLocaleString(), 365);
+                }
+
+                welcomeUser();
+
+            </script>
+
+         </section>
+    </main>
+    <!-- Footer-->
+    <footer class="bg-white py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <div class="small m-0">Copyright &copy; Your Website 2023</div>
+                </div>
+                <div class="col-auto">
+                    <a class="small" href="#!">Privacy</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="#!">Terms</a>
+                    <span class="mx-1">&middot;</span>
+                    <a class="small" href="#!">Contact</a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</body>
+
+</html>
