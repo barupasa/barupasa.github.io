@@ -183,8 +183,6 @@ const Greeting = () => {
 
 # Cookie 
 
-JavaScript cookies are utilized to remember the user . If they visit the website first time "welcome to my portfolio is displayed" otherwise "welcome back to my portfolioi and time" are displayed.
-
 I have integrated portfolio with Javascript cookies to remember the user .I gave customized message based on the cookie .below is the code i have utilized .
 
 ```
