@@ -8,10 +8,8 @@
 
 **Email** : barupasa@mail.uc.edu
 
-**Profile Pic** : 
-![SK_ProfilePic](/assets/headshot.jpeg) 
-
-
+**Profile Pic**
+![SaiKrishna](/assets/headshot.jpeg) 
 
 ## Repository information for Project 1
 
