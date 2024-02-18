@@ -9,7 +9,7 @@
 **Email** : barupasa@mail.uc.edu
 
 **Profile Pic** : 
-![SK_ProfilePic](/assets/SK_ProfilePic.jpeg) 
+![SK_ProfilePic](/assets/headshot.jpeg) 
 
 
 
