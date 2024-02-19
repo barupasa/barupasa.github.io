@@ -9,7 +9,7 @@
 **Email** : barupasa@mail.uc.edu
 
 **Profile Pic**
-![SaiKrishna](/assets/headshot.jpeg) 
+![SaiKrishna](assets/headshot.jpeg) 
 
 ## Repository information for Project 1
 
@@ -28,17 +28,17 @@ Techstack used : HTML,CSS,JQuery,Java script ,React and Bootstarp.
 ## Create and deploy Personal website
 I have built personal portfolio by using a predefined bootstrap template which I got at startbootstrap.com .I have updated all my details in the portfolio as mentioned in the requirements such as Name ,profile pic ,experience ,education ,resume and skills .
 
-![homepage1](/assets/homepage1.png)
-![homepage2](/assets/homepage2.png)
-![homepage3](/assets/homepage3.png)
-![homepage4](/assets/homepage4.png)
-![homepage5](/assets/homepage5.png)
+![homepage1](assets/homepage1.png)
+![homepage2](assets/homepage2.png)
+![homepage3](assets/homepage3.png)
+![homepage4](assets/homepage4.png)
+![homepage5](assets/homepage5.png)
 
 ## Link to  "Web Application Programming and Hacking" course
 
 I have  updated the portfolio with a new page to showcase my work done as part of WAPH course.
 
-![WAPH page](/assets/waph.png)
+![WAPH page](assets/waph.png)
 
 ## Integrated Google Analytics Page tracker 
 
@@ -55,7 +55,7 @@ I have  updated the portfolio with a new page to showcase my work done as part o
 </script>
 ```
 
-![Google Analytics Tracker Results ](/assets/Analytics.png)
+![Google Analytics Tracker Results ](assets/Analytics.png)
 
 
 ### TASK 2: Technical requirements
@@ -111,7 +111,7 @@ attached snapshots for the same .
 
 ```
 
-![Digital,Analog ,show or hide email](/assets/homepage5.png)
+![Digital,Analog ,show or hide email](assets/homepage5.png)
 
 
 ## Joke API
@@ -134,7 +134,7 @@ I have integrated joke API which i learnt in lab2.
 
  ```
 
-![Random Joke](/assets/homepage5.png)
+![Random Joke](assets/homepage5.png)
 
 ## Public API with graphics
 
@@ -149,7 +149,7 @@ I have integradted a public API which has graphics .
                 </script>
 ```
 
-![weather widget](/assets/homepage5.png)
+![weather widget](assets/homepage5.png)
 
 
 
@@ -176,7 +176,7 @@ const Greeting = () => {
   ReactDOM.render(React.createElement(Greeting, null), document.getElementById('greeting'));
 ```
 
-![Random greeting message](/assets/greeting.png)
+![Random greeting message](assets/greeting.png)
 
 
 # Cookie 
@@ -217,9 +217,9 @@ I have integrated portfolio with Javascript cookies to remember the user .I gave
             </script>
 ```
 
-![First time user](/assets/cookie1.png)
+![First time user](assets/cookie1.png)
 
-![Revisted user](/assets/cookie2.png)
+![Revisted user](assets/cookie2.png)
 
 
 
