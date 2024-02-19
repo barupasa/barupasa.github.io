@@ -42,6 +42,7 @@ I have  updated the portfolio with a new page to showcase my work done as part o
 
 ## Integrated Google Analytics Page tracker 
 
+I have integrate portfolio with Google analytics to track the page .For this i have created a Google analytics account and then i integrated with my credentials in the index.html page.
 
 ```
 <!-- Google tag (gtag.js) -->
@@ -138,7 +139,7 @@ I have integrated public joke API which i learnt in lab2.Below is the code snipp
 
 ## Public API with graphics
 
-I have integradted a public weather API which has graphics .
+I have integradted a public weather API which has graphics .For this i have choosen an open API and then selected ohio as the location.then i got the corresponding script to ontegrate with my portfolio.
 
 ```
   <!-- Weather widget script -->
