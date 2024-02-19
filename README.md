@@ -116,7 +116,7 @@ attached snapshots for the same .
 
 ## Joke API
 
-I have integrated joke API which i learnt in lab2.
+I have integrated public joke API which i learnt in lab2.Below is the code snippet .
 
 ```
  <div id="joke" style="color:green;"></div>
@@ -132,13 +132,13 @@ I have integrated joke API which i learnt in lab2.
                     });
             </script>
 
- ```
+```
 
 ![Random Joke](assets/homepage5.png)
 
 ## Public API with graphics
 
-I have integradted a public API which has graphics .
+I have integradted a public weather API which has graphics .
 
 ```
   <!-- Weather widget script -->
